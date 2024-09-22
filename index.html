@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Music Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1c1c1c;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #e74c3c;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            background-color: #2c2c2c;
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card h2 {
+            color: #e74c3c;
+        }
+        .album {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #3d3d3d;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1c1c1c;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Metal Music Dashboard</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Últimos Álbumes</h2>
+        <div class="album">Metallica - 72 Seasons</div>
+        <div class="album">Iron Maiden - Senjutsu</div>
+        <div class="album">Slipknot - We Are Not Your Kind</div>
+    </div>
+    
+    <div class="card">
+        <h2>Artistas Destacados</h2>
+        <div class="album">Judas Priest</div>
+        <div class="album">Black Sabbath</div>
+        <div class="album">Megadeth</div>
+    </div>
+    
+    <div class="card">
+        <h2>Noticias Recientes</h2>
+        <div class="album">Nuevo álbum de Pantera anunciado para 2024.</div>
+        <div class="album">Gira mundial de Dream Theater comienza en marzo.</div>
+        <div class="album">Festival de música metal en julio en Europa.</div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Metal Music Dashboard | <a href="#" style="color: #e74c3c;">Contacto</a></p>
+</footer>
+
+</body>
+</html>
